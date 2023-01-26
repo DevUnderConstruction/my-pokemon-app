@@ -1,9 +1,14 @@
 import "./App.css";
+import Header from "./Header/Header";
+import ShoppingItem from "./ShoppingItem/ShoppingItem";
 
 function App() {
   return (
     <div>
-      <header>Header</header>
+      <Header />
+      <main>
+        <ShoppingItem />
+      </main>
     </div>
   );
 }
